@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  background-color: #EFF0F1;
+}
+
+/* Định nghĩa cho khung, content và footer cho website */
+#container {
+  width: 985px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #292728;
+}
+
+#content {
+  width: 100%;
+  height: 84.375%;
+  position: relative;
+  border-bottom: 1px dashed white;
+}
+
+#footer {
+  width: 100%;
+  height: 15.625%;
+  position: relative;
+  background-color: red;
+}
+
+/* ===== Định nghĩa các thành phần bên trong #content ===== */
+
+/* Thành phần trong search */
+#logo {
+  width: 25%;
+  height: 6.25%;
+  position: absolute;
+  top: 6%;
+  right: 6.25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#logo-title {
+  width: 100%;
+  height: 60%;
+  background-image: url("../imgs/Entertainment.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#search {
+  width: 100%;
+  height: 40%;
+
+}
+#txt-search {
+  height: 15px;
+  margin-left: 13px;
+}
+#btn-search {
+  width: 65px;
+  background-color: #BB2E7C;
+  border: none;
+}
+
+/* Thành phần trong daily */
+.daily {
+  width: 66.25%;
+  height: 39%;
+  position: absolute;
+  top: 3.125%;
+  left: 0;
+  font-family: Arial;
+}
+.daily-title {
+  width: 100%;
+  height: 11.5%; 
+  font-size: 15px;
+  color: white;
+  background-image: url("../imgs/h2-confidential-heading-bg.gif");
+}
+.daily-title b {
+  margin: 10px 0 0 10px;
+}
+.gossip,
+.pics {
+	width: 50%;
+	height: 85%;
+}
+.daily .gossip {
+	float: left;
+	background-color: white;
+}
+.daily .pics {
+	float: right;
+	background-color: green;
+}
+
+.gossip img {
+	width: 90%;
+	height: 120px;
+	margin: 7px 7px 0 10px;
+}
+.gossip b {
+	margin-left: 13px;
+}
+.gossip p {
+	margin-top: 2px;
+	margin-left: 10px;
+	font-size: 11px;
+}
+
+.confi {
+	width: 100%;
+	height: 15%;
+	clear: both;
+	background-color: white;
+}
+.confi img {
+  margin: 12px 0 0 10px;
+}
+
+#showbuzz {
+	height: 10%;
+	margin: 0 10px;
+}
+/* Định nghĩa các thành phần bên trong footer */
